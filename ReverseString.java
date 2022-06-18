@@ -21,13 +21,18 @@ public class ReverseString {
 				
 			}
 				
-				
+				System.out.println();
 				/* Pseudo Code: 2
 				a) Find the length of the string
 				b) Traverse through each index from length-1 -> 0 (using loop in reverse direction)
 				c) Find the character of the String using its index
 				*/
 
+               int i = test.length();
+               for( int x=i-1;x>=0;x--) {
+            	   System.out.print(test.charAt(x));
+               }
+               
 	}
 
 }
