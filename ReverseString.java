@@ -28,8 +28,8 @@ public class ReverseString {
 				c) Find the character of the String using its index
 				*/
 
-               int i = test.length();
-               for( int x=i-1;x>=0;x--) {
+               int k = test.length();
+               for( int x=k-1;x>=0;x--) {
             	   System.out.print(test.charAt(x));
                }
                
